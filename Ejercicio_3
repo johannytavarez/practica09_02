@@ -1,0 +1,21 @@
+using System;
+
+class numeros {
+  public static void Main (string[] args) {
+  int contador, x;
+  x = 100;
+  contador = 1;
+
+  while (contador<=10){
+    if ( x % 2 == 0 ) {
+
+      Console.WriteLine(x);
+      contador = contador +1;
+    }
+
+    x = x+1;
+
+  }
+
+  }
+}

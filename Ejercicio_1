@@ -1,0 +1,19 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    /*Crear un programa que pida números positivos al usuario, y vaya calculandola suma de todos ellos (terminará cuando se teclea un número negativo o cero).*/
+
+    Console.WriteLine("Ingrese un número positivo y realizare la suma de cada uno");
+    int numero, suma;
+    suma = 0;
+    do{
+      numero =  int.Parse(Console.ReadLine());
+      suma = suma + numero;
+
+    } while (numero >=0);
+
+    Console.WriteLine(suma);
+
+  }
+}
